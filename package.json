@@ -1,21 +1,21 @@
 {
   "name": "screenres",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "configure": "node-gyp configure",
     "build": "node-gyp build",
     "test": "mocha",
+    "install-verbose": "node-gyp rebuild --verbose",
     "install": "node-gyp rebuild"
   },
   "devDependencies": {
-    "nan": "^1.8.4",
     "mocha": "^2.2.5",
     "node-gyp": "^1.0.3"
   },
   "dependencies": {
     "bindings": "^1.2.1",
     "minimist": "^1.1.1",
-    "nan": "^1.8.4"
+    "nan": "^2.2.0"
   },
   "gypfile": true,
   "description": "Get and set screen resolutions",
