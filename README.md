@@ -12,6 +12,10 @@ sudo apt-get install libsdl1.2-dev
 
 (Changing screen res doesn't work yet with SDL2 because it screenres would need to create a new window)
 
+NOTE from https://www.raspberrypi.org/forums/viewtopic.php?t=13789 :
+seg fault over SSH (framebuffer not accessible in SSH session).
+It must run directly from console.
+
 ## Usage
 
 ### Programmatic
